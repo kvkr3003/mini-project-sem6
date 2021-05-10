@@ -1,0 +1,1 @@
+cat out1.txt | grep "* custom_metadata.bl_value" > table-data.txt

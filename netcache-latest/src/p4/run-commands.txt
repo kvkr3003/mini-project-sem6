@@ -1,0 +1,20 @@
+sudo p4run
+
+sudo python -m controller.blink_controller --port 10000 --log_dir log --log_level 20 --routing_file topologies/5switches_routing.json --threshold 31 --topo_db topology.db
+
+python -m controller.run_p4_controllers --topo_db topology.db --controller_ip localhost --controller_port 10000 --routing_file topologies/5switches_routing.json
+
+
+mx h2
+python -m traffic_generation.run_servers --ports 11000,11040 --log_dir log_traffic```
+python -m traffic_generation.run_servers --ports 11000,11040 --log_dir log_traffic```
+
+sudo ifconfig s1-eth2 down
+
+speedometer -t s1-eth1
+mx h1
+python -m traffic_generation.run_clients --dst_ip 10.0.5.2 --src_ports 11000,11040 --dst_ports 11000,11040 --ipd 1 --duration 40 --log_dir log_traffic/
+
+
+cat s1.log | grep "* meta.bl_value" > s1-out1.log
+

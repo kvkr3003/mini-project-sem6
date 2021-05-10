@@ -1,0 +1,414 @@
+(u'MyIngress.vtable_1', u'NoAction')
+(u'tbl_ingress385', u'MyIngress.lookup_table')
+(u'node_47', u'node_49')
+(u'MyIngress.vtable_5', u'tbl_ingress342')
+(u'node_49', u'tbl_ingress563')
+(u'tbl_ingress306', u'MyIngress.vtable_3')
+(u'MyIngress.vtable_1', u'tbl_ingress294')
+(u'node_53', u'tbl_ingress583')
+(u'MyIngress.vtable_7', u'NoAction')
+(u'node_7', u'tbl_ingress410')
+(u'MyIngress.process_array_0', u'tbl_ingress282')
+(u'MyIngress.vtable_6', u'MyIngress.process_array_6')
+(u'tbl_ingress583', u'MyIngress.debug')
+(u'node_52', u'node_53')
+(u'tbl_ingress493', u'node_35')
+(u'node_9', u'MyIngress.debug')
+(u'MyIngress.vtable_1', u'MyIngress.process_array_1')
+(u'tbl_ingress527', u'node_43')
+(u'MyIngress.process_array_3', u'tbl_ingress318')
+(u'tbl_ingress500', u'node_37')
+(u'node_3', u'tbl_ingress385')
+(u'node_27', u'tbl_ingress452')
+(u'node_47', u'tbl_ingress554')
+(u'node_35', u'node_37')
+(u'tbl_ingress354', u'MyIngress.vtable_7')
+(u'node_52', u'tbl_ingress594')
+(u'MyIngress.vtable_7', u'tbl_ret_pkt_to_sender')
+(u'MyIngress.lookup_table', u'node_52')
+(u'tbl_ingress410', u'node_9')
+(u'MyIngress.l2_forward', u'MyIngress.set_egress_port')
+(u'MyIngress.process_array_5', u'tbl_ingress342')
+(u'MyIngress.debug', u'MyIngress.l2_forward')
+(u'node_7', u'node_27')
+(u'MyIngress.lookup_table', u'NoAction')
+(u'MyIngress.vtable_0', u'MyIngress.process_array_0')
+(u'node_9', u'tbl_ingress270')
+(u'node_41', u'node_43')
+(u'node_31', u'MyIngress.debug')
+(u'node_37', u'tbl_ingress509')
+(u'node_45', u'tbl_ingress545')
+(u'node_29', u'node_31')
+(u'MyIngress.vtable_3', u'MyIngress.process_array_3')
+(u'node_45', u'node_47')
+(u'MyIngress.process_array_7', u'tbl_ret_pkt_to_sender')
+(u'MyIngress.vtable_4', u'tbl_ingress330')
+(u'tbl_ingress318', u'MyIngress.vtable_4')
+(u'MyIngress.vtable_2', u'NoAction')
+(u'MyIngress.debug', u'NoAction')
+(u'tbl_ingress509', u'node_39')
+(u'tbl_ingress594', u'MyIngress.debug')
+(u'node_43', u'node_45')
+(u'node_39', u'node_41')
+(u'tbl_ingress567', u'MyIngress.debug')
+(u'node_31', u'tbl_ingress483')
+(u'MyIngress.vtable_4', u'MyIngress.process_array_4')
+(u'node_43', u'tbl_ingress536')
+(u'MyIngress.vtable_7', u'MyIngress.process_array_7')
+(u'MyIngress.lookup_table', u'MyIngress.set_lookup_metadata')
+(u'tbl_ingress518', u'node_41')
+(u'node_27', u'node_29')
+(u'tbl_ingress342', u'MyIngress.vtable_6')
+(u'tbl_ingress536', u'node_45')
+(u'MyIngress.vtable_6', u'tbl_ingress354')
+(u'tbl_ingress270', u'MyIngress.vtable_0')
+(u'MyIngress.vtable_3', u'NoAction')
+(u'tbl_ingress294', u'MyIngress.vtable_2')
+(u'node_53', u'MyIngress.debug')
+(u'tbl_ingress483', u'tbl_ret_pkt_to_sender_0')
+(u'tbl_ingress554', u'node_49')
+(u'MyIngress.vtable_0', u'tbl_ingress282')
+(u'MyIngress.vtable_5', u'MyIngress.process_array_5')
+(u'MyIngress.vtable_4', u'NoAction')
+(u'tbl_ingress545', u'node_47')
+(u'node_49', u'tbl_ingress567')
+(u'MyIngress.ret_pkt_to_sender', u'MyIngress.debug')
+(u'MyIngress.process_array_4', u'tbl_ingress330')
+(u'tbl_ingress330', u'MyIngress.vtable_5')
+(u'MyIngress.process_array_2', u'tbl_ingress306')
+(u'tbl_ingress472', u'MyIngress.debug')
+(u'MyIngress.l2_forward', u'MyIngress.drop')
+(u'node_29', u'tbl_ingress472')
+(u'MyIngress.ret_pkt_to_sender', u'tbl_ingress493')
+(u'node_3', u'MyIngress.debug')
+(u'MyIngress.vtable_3', u'tbl_ingress318')
+(u'node_35', u'tbl_ingress500')
+(u'node_37', u'node_39')
+(u'tbl_ingress452', u'MyIngress.debug')
+(u'MyIngress.vtable_5', u'NoAction')
+(u'MyIngress.vtable_0', u'NoAction')
+(u'MyIngress.process_array_1', u'tbl_ingress294')
+(u'tbl_ingress131', u'node_3')
+(u'MyIngress.vtable_6', u'NoAction')
+(u'MyIngress.vtable_2', u'tbl_ingress306')
+(u'tbl_ingress282', u'MyIngress.vtable_1')
+(u'MyIngress.process_array_6', u'tbl_ingress354')
+(u'tbl_ingress563', u'tbl_ingress567')
+(u'node_39', u'tbl_ingress518')
+(u'node_41', u'tbl_ingress527')
+(u'MyIngress.set_lookup_metadata', u'tbl_ingress401')
+(u'MyIngress.vtable_2', u'MyIngress.process_array_2')
+(u'tbl_ingress401', u'node_7')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{'src': u'node_39', 'dst': u'tbl_ingress518', 'weight': 0}
+
+{'src': u'node_39', 'dst': u'node_41', 'weight': 0}
+
+{'src': u'node_9', 'dst': u'tbl_ingress270', 'weight': 0}
+
+{'src': u'node_9', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'node_41', 'dst': u'tbl_ingress527', 'weight': 0}
+
+{'src': u'node_41', 'dst': u'node_43', 'weight': 0}
+
+{'src': u'node_7', 'dst': u'tbl_ingress410', 'weight': 0}
+
+{'src': u'node_7', 'dst': u'node_27', 'weight': 0}
+
+{'src': u'node_35', 'dst': u'tbl_ingress500', 'weight': 0}
+
+{'src': u'node_35', 'dst': u'node_37', 'weight': 0}
+
+{'src': u'node_3', 'dst': u'tbl_ingress385', 'weight': 0}
+
+{'src': u'node_3', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'node_31', 'dst': u'tbl_ingress483', 'weight': 0}
+
+{'src': u'node_31', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'node_37', 'dst': u'tbl_ingress509', 'weight': 0}
+
+{'src': u'node_37', 'dst': u'node_39', 'weight': 0}
+
+{'src': u'node_53', 'dst': u'tbl_ingress583', 'weight': 0}
+
+{'src': u'node_53', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'node_27', 'dst': u'tbl_ingress452', 'weight': 0}
+
+{'src': u'node_27', 'dst': u'node_29', 'weight': 0}
+
+{'src': u'node_43', 'dst': u'tbl_ingress536', 'weight': 0}
+
+{'src': u'node_43', 'dst': u'node_45', 'weight': 0}
+
+{'src': u'node_45', 'dst': u'tbl_ingress545', 'weight': 0}
+
+{'src': u'node_45', 'dst': u'node_47', 'weight': 0}
+
+{'src': u'node_47', 'dst': u'tbl_ingress554', 'weight': 0}
+
+{'src': u'node_47', 'dst': u'node_49', 'weight': 0}
+
+{'src': u'node_49', 'dst': u'tbl_ingress563', 'weight': 0}
+
+{'src': u'node_49', 'dst': u'tbl_ingress567', 'weight': 0}
+
+{'src': u'node_52', 'dst': u'node_53', 'weight': 0}
+
+{'src': u'node_52', 'dst': u'tbl_ingress594', 'weight': 0}
+
+{'src': u'node_29', 'dst': u'tbl_ingress472', 'weight': 0}
+
+{'src': u'node_29', 'dst': u'node_31', 'weight': 0}
+
+{'src': u'MyIngress.lookup_table', 'dst': u'MyIngress.set_lookup_metadata', 'weight': 0}
+
+{'src': u'MyIngress.lookup_table', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_6', 'dst': u'MyIngress.process_array_6', 'weight': 0}
+
+{'src': u'MyIngress.vtable_6', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_7', 'dst': u'MyIngress.process_array_7', 'weight': 0}
+
+{'src': u'MyIngress.vtable_7', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_4', 'dst': u'MyIngress.process_array_4', 'weight': 0}
+
+{'src': u'MyIngress.vtable_4', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_5', 'dst': u'MyIngress.process_array_5', 'weight': 0}
+
+{'src': u'MyIngress.vtable_5', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_2', 'dst': u'MyIngress.process_array_2', 'weight': 0}
+
+{'src': u'MyIngress.vtable_2', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_3', 'dst': u'MyIngress.process_array_3', 'weight': 0}
+
+{'src': u'MyIngress.vtable_3', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_0', 'dst': u'MyIngress.process_array_0', 'weight': 0}
+
+{'src': u'MyIngress.vtable_0', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.vtable_1', 'dst': u'MyIngress.process_array_1', 'weight': 0}
+
+{'src': u'MyIngress.vtable_1', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'MyIngress.l2_forward', 'dst': u'MyIngress.set_egress_port', 'weight': 0}
+
+{'src': u'MyIngress.l2_forward', 'dst': u'MyIngress.drop', 'weight': 0}
+
+{'src': u'MyIngress.debug', 'dst': u'NoAction', 'weight': 0}
+
+{'src': u'tbl_ingress493', 'dst': u'node_35', 'weight': 0}
+
+{'src': u'tbl_ingress594', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'tbl_ingress452', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'tbl_ingress385', 'dst': u'MyIngress.lookup_table', 'weight': 0}
+
+{'src': u'tbl_ingress536', 'dst': u'node_45', 'weight': 0}
+
+{'src': u'MyIngress.set_lookup_metadata', 'dst': u'tbl_ingress401', 'weight': 0}
+
+{'src': u'MyIngress.lookup_table', 'dst': u'node_52', 'weight': 0}
+
+{'src': u'MyIngress.ret_pkt_to_sender', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'tbl_ingress472', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'tbl_ingress282', 'dst': u'MyIngress.vtable_1', 'weight': 0}
+
+{'src': u'tbl_ingress410', 'dst': u'node_9', 'weight': 0}
+
+{'src': u'tbl_ingress342', 'dst': u'MyIngress.vtable_6', 'weight': 0}
+
+{'src': u'tbl_ingress518', 'dst': u'node_41', 'weight': 0}
+
+{'src': u'tbl_ingress306', 'dst': u'MyIngress.vtable_3', 'weight': 0}
+
+{'src': u'tbl_ingress583', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'tbl_ingress294', 'dst': u'MyIngress.vtable_2', 'weight': 0}
+
+{'src': u'MyIngress.process_array_6', 'dst': u'tbl_ingress354', 'weight': 0}
+
+{'src': u'MyIngress.vtable_6', 'dst': u'tbl_ingress354', 'weight': 0}
+
+{'src': u'MyIngress.vtable_7', 'dst': u'tbl_ret_pkt_to_sender', 'weight': 0}
+
+{'src': u'MyIngress.process_array_7', 'dst': u'tbl_ret_pkt_to_sender', 'weight': 0}
+
+{'src': u'MyIngress.process_array_4', 'dst': u'tbl_ingress330', 'weight': 0}
+
+{'src': u'MyIngress.vtable_4', 'dst': u'tbl_ingress330', 'weight': 0}
+
+{'src': u'MyIngress.process_array_5', 'dst': u'tbl_ingress342', 'weight': 0}
+
+{'src': u'MyIngress.vtable_5', 'dst': u'tbl_ingress342', 'weight': 0}
+
+{'src': u'MyIngress.process_array_2', 'dst': u'tbl_ingress306', 'weight': 0}
+
+{'src': u'MyIngress.vtable_2', 'dst': u'tbl_ingress306', 'weight': 0}
+
+{'src': u'MyIngress.process_array_3', 'dst': u'tbl_ingress318', 'weight': 0}
+
+{'src': u'MyIngress.vtable_3', 'dst': u'tbl_ingress318', 'weight': 0}
+
+{'src': u'MyIngress.process_array_0', 'dst': u'tbl_ingress282', 'weight': 0}
+
+{'src': u'MyIngress.vtable_0', 'dst': u'tbl_ingress282', 'weight': 0}
+
+{'src': u'MyIngress.process_array_1', 'dst': u'tbl_ingress294', 'weight': 0}
+
+{'src': u'MyIngress.vtable_1', 'dst': u'tbl_ingress294', 'weight': 0}
+
+{'src': u'tbl_ingress483', 'dst': u'tbl_ret_pkt_to_sender_0', 'weight': 0}
+
+{'src': u'MyIngress.ret_pkt_to_sender', 'dst': u'tbl_ingress493', 'weight': 0}
+
+{'src': u'tbl_ingress500', 'dst': u'node_37', 'weight': 0}
+
+{'src': u'tbl_ingress527', 'dst': u'node_43', 'weight': 0}
+
+{'src': u'tbl_ingress567', 'dst': u'MyIngress.debug', 'weight': 0}
+
+{'src': u'tbl_ingress131', 'dst': u'node_3', 'weight': 0}
+
+{'src': u'tbl_ingress563', 'dst': u'tbl_ingress567', 'weight': 0}
+
+{'src': u'tbl_ingress545', 'dst': u'node_47', 'weight': 0}
+
+{'src': u'tbl_ingress354', 'dst': u'MyIngress.vtable_7', 'weight': 0}
+
+{'src': u'tbl_ingress401', 'dst': u'node_7', 'weight': 0}
+
+{'src': u'tbl_ingress270', 'dst': u'MyIngress.vtable_0', 'weight': 0}
+
+{'src': u'tbl_ingress318', 'dst': u'MyIngress.vtable_4', 'weight': 0}
+
+{'src': u'tbl_ingress509', 'dst': u'node_39', 'weight': 0}
+
+{'src': u'MyIngress.debug', 'dst': u'MyIngress.l2_forward', 'weight': 0}
+
+{'src': u'tbl_ingress554', 'dst': u'node_49', 'weight': 0}
+
+{'src': u'tbl_ingress330', 'dst': u'MyIngress.vtable_5', 'weight': 0}
+
+{'src': 'tbl_ret_pkt_to_sender', 'dst': 'MyIngress.ret_pkt_to_sender', 'weight': 0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+POSITIVE WEIGHTS 
+
+
+
+{'src': u'MyIngress.vtable_1', 'dst': u'NoAction', 'weight': 98814}
+done
+{'src': u'node_49', 'dst': u'tbl_ingress563', 'weight': 3}
+done
+{'src': u'MyIngress.vtable_1', 'dst': u'tbl_ingress294', 'weight': 49407}
+done
+{'src': u'MyIngress.vtable_7', 'dst': u'NoAction', 'weight': 1542}
+done
+{'src': u'node_7', 'dst': u'tbl_ingress410', 'weight': 780}
+done
+{'src': u'MyIngress.vtable_6', 'dst': u'MyIngress.process_array_6', 'weight': 1543}
+done
+{'src': u'node_9', 'dst': u'MyIngress.debug', 'weight': 197631}
+done--> changed
+{'src': u'node_47', 'dst': u'tbl_ingress554', 'weight': 6}
+done
+{'src': u'node_35', 'dst': u'node_37', 'weight': 384}
+done
+{'src': u'node_52', 'dst': u'tbl_ingress594', 'weight': 6}
+done
+{'src': u'MyIngress.l2_forward', 'dst': u'MyIngress.set_egress_port', 'weight': 1}
+done
+{'src': u'MyIngress.debug', 'dst': u'MyIngress.l2_forward', 'weight': 1}
+done
+{'src': u'MyIngress.lookup_table', 'dst': u'NoAction', 'weight': 198423}
+done-->changed
+{'src': u'node_31', 'dst': u'MyIngress.debug', 'weight': 771}
+done-->update
+{'src': u'MyIngress.vtable_3', 'dst': u'MyIngress.process_array_3', 'weight': 12351}
+done
+{'src': u'node_45', 'dst': u'node_47', 'weight': 12}
+done-->update
+{'src': u'MyIngress.vtable_4', 'dst': u'tbl_ingress330', 'weight': 6175}
+done
+{'src': u'MyIngress.vtable_2', 'dst': u'NoAction', 'weight': 49406}
+done
+{'src': u'node_43', 'dst': u'node_45', 'weight': 24}
+done
+{'src': u'MyIngress.vtable_7', 'dst': u'MyIngress.process_array_7', 'weight': 771}
+done
+{'src': u'MyIngress.lookup_table', 'dst': u'MyIngress.set_lookup_metadata', 'weight': 9}
+done
+{'src': u'node_27', 'dst': u'node_29', 'weight': 3}
+done
+{'src': u'MyIngress.vtable_3', 'dst': u'NoAction', 'weight': 24702}
+done
+{'src': u'node_53', 'dst': u'MyIngress.debug', 'weight': 3}
+done
+{'src': u'MyIngress.vtable_0', 'dst': u'tbl_ingress282', 'weight': 98815}
+done
+{'src': u'MyIngress.vtable_5', 'dst': u'MyIngress.process_array_5', 'weight': 3087}
+done
+{'src': u'MyIngress.vtable_4', 'dst': u'NoAction', 'weight': 12350}
+done
+{'src': u'MyIngress.ret_pkt_to_sender', 'dst': u'MyIngress.debug', 'weight': 768}
+done
+{'src': u'node_29', 'dst': u'tbl_ingress472', 'weight': 774}
+done
+{'src': u'node_3', 'dst': u'MyIngress.debug', 'weight': 198424}
+done--> changed
+{'src': u'node_37', 'dst': u'node_39', 'weight': 192}
+done
+{'src': u'MyIngress.vtable_5', 'dst': u'NoAction', 'weight': 6174}
+done
+{'src': u'MyIngress.vtable_0', 'dst': u'NoAction', 'weight': 197630}
+done
+{'src': u'MyIngress.vtable_6', 'dst': u'NoAction', 'weight': 3086}
+done
+{'src': u'node_39', 'dst': u'tbl_ingress518', 'weight': 96}
+done
+{'src': u'node_41', 'dst': u'tbl_ingress527', 'weight': 48}
+done
+{'src': u'MyIngress.vtable_2', 'dst': u'MyIngress.process_array_2', 'weight': 24703}

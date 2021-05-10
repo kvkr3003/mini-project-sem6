@@ -1,0 +1,10 @@
+cd kv_store
+./produce_keyvals.sh -s 4 -n 500
+cd ../p4
+sudo p4run --config p4app_4_1.json
+cd ../controller
+sudo python controller.py
+cd ../p4
+./init_servers.sh 4
+cd ../kv_store
+mx client1 python3 test.py
