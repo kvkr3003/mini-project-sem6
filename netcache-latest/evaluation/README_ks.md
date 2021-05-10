@@ -179,17 +179,6 @@ mkdir -p results
 mx client1 python3 exec_queries.py --n-servers 8 --suppress --input data/merge_zipf_attack.txt
 ```
 
-mkdir -p results
-mx client1 python3 exec_queries.py --n-servers 8 --suppress --input data/dataset.txt
-
-
-mkdir -p results
-mx client1 python3 exec_queries.py --n-servers 8 --suppress --input data/testing.txt
-
-
-
-sudo tcpdump -i s1-cpu-eth0 -l -e -n | ./netbps
-
 8. Inside `src/kv_store` we use the `gen_plots.py` script and the results file generated
 by the previous step to display a plot of the load (number of requests) handled by each server:
 ```bash
